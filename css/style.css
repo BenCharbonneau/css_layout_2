@@ -1,0 +1,31 @@
+body {
+	height: 90vh;
+}
+
+header,footer,aside,section {
+	background-color: #DDDDDD;
+	box-sizing: border-box;
+	border: 2px solid #AAAAAA;
+	margin: 1%;
+}
+
+header,footer {
+	height: 20%;
+}
+
+aside,section {
+	height: 60%;
+	display: inline-block;
+}
+
+aside.thin {
+	width: 15%;
+}
+
+aside {
+	width: 20%;
+}
+
+section {
+	width: 58%;
+}
